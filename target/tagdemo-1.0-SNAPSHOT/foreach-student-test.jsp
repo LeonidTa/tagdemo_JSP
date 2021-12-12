@@ -48,6 +48,8 @@
                     <c:if test="${not tempStudent.goldCustomer}">
                         No Discount
                     </c:if>
+
+                <!-- you can also choose c:choose. This has WHEN and OTHERWISE, which is the same as IF and ELSE -->
             </td>
         </tr>
     </c:forEach>
